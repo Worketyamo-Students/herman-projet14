@@ -1,0 +1,42 @@
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+.centre{
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    height: 55vh;
+    width: 50vw;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.titre{
+    display: flex;
+    justify-content: space-between;
+}
+.select{
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+
+}
+.list{
+    position: relative;
+    align-items: center;
+
+}
+.salut{
+    position: absolute;
+    top: 95%;
+    left: 45%;
+
+}
