@@ -8,54 +8,73 @@
   <script src="./tailwind.config.js"></script>
   <link rel="stylesheet" href="./index.css">
 </head>
-<body class=" h-[100vh] w-[100vw] font-['josefin Sans']">
-    <div class="h-2/5 bg-[url('/Bitmap.png')] bg-cover "></div>
+<body class=" h-[100vh] w-[100vw] font-['josefin Sans'] relative">
+    <div class="h-2/5 lg:bg-[url('/image/Bitmap.png')] bg-[url('/image/BitmapSm.jpg')] bg-cover "></div>
     <div class="h-3/5  w-full bg-darkstheme">
         <div class="salut text-colorsecond lg:text-[1.1rem]">Drag and drop to reorder list</div>
     </div>
     <div class="centre">
         <div class="titre">
-            <div><img src="./TODO.png" alt=""></div>
-            <div><img src="./Combined Shape.png" alt=""></div>
+            <div><img src="./image/TODO.png" alt=""></div>
+            <div><img src="./image/Oval1.png" alt=""></div>
         </div>
-        <div class=" h-[5rem] flex items-center bg-white rounded px-[2rem] gap-[3rem] my-[2rem] lg:text-[1.8rem] py-[1rem]  text-colorsecond">
-           <div><img src="./Oval Copy.png" alt=""></div>
+        <div class=" h-[4rem] flex items-center bg-white rounded px-[2rem] gap-[3rem] my-[2rem] lg:text-[1.8rem] py-[1rem]  text-colorsecond">
+           <div><img src="./image/Oval.png" alt=""></div>
            <div>Create a new todo…</div>
+           
         </div>
         <div class="list  rounded shadow-lg bg-white">
             <ul class="px-[1rem]">
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitethemeselect border-b border-colorsecond line-through">
-                    <div><img src="./Group 4.png" alt=""></div>
+                <li class="flex justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitethemeselect border-b border-colorsecond line-through">
+                    <div class="flex items-center gap-[1rem]">
+                        <div><img src="./image/Group 4.png" alt=""></div>
                     <div>Complete online JavaScript course</div>
-                </li>
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitetheme border-b border-colorsecond">
-                    <div><img src="./Oval Copy.png" alt=""></div>
-                    <div>Jog around the park 3x</div>
-                </li>
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitetheme border-b border-colorsecond">
-                    <div><img src="./Oval Copy.png" alt=""></div>
-                    <div>10 minutes meditation</div>
-                </li>
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitetheme border-b border-colorsecond">
-                    <div><img src="./Oval Copy.png" alt=""></div>
-                    <div>Read for 1 hour</div>
-                </li>
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitetheme border-b border-colorsecond">
-                    <div><img src="./Oval Copy.png" alt=""></div>
-                    <div>Pick up groceries</div>
-                </li>
-                <li class="flex items-center gap-[2rem] lg:text-[1.8rem] py-[1rem]  text-whitetheme border-b border-colorsecond">
-                    <div><img src="./Oval Copy.png" alt=""></div>
-                    <div>Complete Todo App on Frontend Mentor</div>
-                </li> 
-                <li class="justify-between flex lg:text-[1.4rem] py-[1rem]  text-colorsecond">
-                    <div >5 items left</div>
-                    <div class="lg:flex gap-[1rem] hidden lg:block">
-                     <div class="text-colorprimary">ALL</div>
-                     <div>Active</div>
-                     <div>Completed</div>
                     </div>
-                    <div>Clear Completed</div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li>
+                <li class="flex justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitetheme border-b border-colorsecond">
+                    <div class="flex items-center gap-[1rem]">
+                        <div><img src="./image/Oval.png" alt=""></div>
+                    <div>Jog around the park 3x</div>
+                    </div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li>
+                <li class="flex justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitetheme border-b border-colorsecond">
+                   <div class="flex items-center gap-[1rem]">
+                    <div><img src="./image/Oval.png" alt=""></div>
+                    <div>10 minutes meditation</div>
+                   </div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li>
+                <li class="flex justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitetheme border-b border-colorsecond">
+                    <div class="flex items-center gap-[1rem]">
+                        <div><img src="./image/Oval.png" alt=""></div>
+                    <div>Read for 1 hour</div>
+                    </div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li>
+                <li class="flex justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitetheme border-b border-colorsecond">
+                    <div class="flex items-center gap-[1rem]">
+                        <div><img src="./image/Oval.png" alt=""></div>
+                    <div>Pick up groceries</div>
+                    </div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li>
+                <li class="flex  justify-between items-center lg:text-[1.8rem] py-[.65rem]  text-whitetheme border-b border-colorsecond">
+                    <div class="flex items-center gap-[1rem]">
+                    <div><img src="./image/Oval.png" alt=""></div>
+                    <div>Complete Todo App on Frontend Mentor</div>
+                 </div>
+                    <div><img src="./image/Combined Shape 2.png" alt=""></div>
+                </li> 
+                <li class="justify-between flex lg:text-[1.4rem] py-[1rem]">
+                    <div class="text-colorsecond">5 items left</div>
+                    <div class="lg:flex gap-[1rem] hidden lg:block">
+                     <button class="hover:text-colorprimary">ALL</button>
+                     <button class="hover:text-colorprimary">Active</button>
+                     <button class="hover:text-colorprimary">Completed</button>
+                    </div>
+                    <button class="hover:text-colorprimary">Clear Complete</button>
                 </li>
                
             </ul>

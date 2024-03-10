@@ -10,11 +10,10 @@ body{
 }
 .centre{
     position: absolute;
-    top: 19%;
-    left: 30%;
-    height: 55vh;
+    top: 7%;
+    left: 25%;
+    height: 35vh;
     width: 50vw;
-    
     justify-content: center;
     align-items: center;
 }
@@ -39,4 +38,16 @@ body{
     top: 95%;
     left: 45%;
 
+}
+@media screen and (max-width: 1024px) {
+    .centre{
+        width: 80vw;
+        height: 80vh;
+        top: 3rem;
+        left: 3rem;
+    }
+    .salut{
+        left: 35%;
+    }
+    
 }
